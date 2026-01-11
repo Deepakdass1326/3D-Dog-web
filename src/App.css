@@ -21,7 +21,7 @@ section {
   z-index: 2;
 }
 
-#canvas-elem ::after {
+#canvas-elem::after {
   content: "";
   height: 100%;
   width: 100%;
@@ -29,7 +29,7 @@ section {
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: url("background-xxs (1).png");
+  background-image: url("background-xxs.png");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.3s linear;
